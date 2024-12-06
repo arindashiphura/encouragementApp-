@@ -1,0 +1,43 @@
+body{
+  padding: 80px;
+}
+.App {
+  text-align: center;
+}
+
+.search-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.left-side, .right-side {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.left-side:hover, .right-side:hover{
+background-color: #ccc;
+}
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #101811;
+}
+h1{
+  font-size: 34px;
+  color: blue;
+  word-wrap: break-word;
+  
+}
